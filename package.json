@@ -1,0 +1,30 @@
+{
+  "name": "getgithub",
+  "version": "1.0.0",
+  "description": "Nodejs and Express App to retrieve GitHub repos info based on the username",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "./node_modules/.bin/nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdal14/GetGitHub.git"
+  },
+  "author": "@valdal14",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valdal14/GetGitHub/issues"
+  },
+  "homepage": "https://github.com/valdal14/GetGitHub#readme",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "node-fetch": "2.0.0",
+    "serve-static": "1.13.2"
+  },
+  "devDependencies": {
+    "jasmine": "3.0.0",
+    "nodemon": "1.15.1"
+  }
+}
