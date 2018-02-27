@@ -12,7 +12,8 @@
     <section>
         <div class="container">
             <div class="jumbotron">
-                <h1>GetGitHub Information</h1>
+                <h1>GetGitHub Profile Information</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime harum dignissimos, nesciunt tenetur ex itaque officiis sequi quam consectetur in cum assumenda dicta perspiciatis animi totam ut impedit porro a?</p>
             </div>
         </div>
     </section>
@@ -23,7 +24,7 @@
                 
             <form>
                 <fieldset>
-                    <legend>GetGitHub Information</legend>
+                    <legend>Get-GitHub Information</legend>
                     <div class="form-group">
                     <input type="text" class="form-control" id="username" name="username" aria-describedby="emailHelp" placeholder="Your GitHub Username" value="" required>
                     </div>
@@ -31,6 +32,49 @@
                 </fieldset>
             </form>
 
+            </div>
+        </div>
+    </section>
+
+    <section id="error">
+        <div class="container">
+            <div class="jumbotron">
+                <p class="text-danger" id="errorMessage"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="spinner">
+        <div class="container">
+            <div class="jumbotron">
+                <p class="textLoading">Loading.... Please wait</p>
+                <img src="spinner.gif" alt="loading" class="spinner">
+            </div>
+        </div>
+    </section>
+
+    <section id="github">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="http://via.placeholder.com/300x300" alt="profile picture" class="pictureProfile">
+                    </div>
+                    <div class="col-lg-4">
+                        <p><b>name</b></p>
+                        <p class="gitHubName"></p>
+                        <p><b>id</b></p>
+                        <p class="gitHubId"></p>
+                        <p><b>url</b></p>
+                        <p><a class="gitHubUrl" href="" target="_blank"></a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p><b>followers</b></p>
+                        <p class="gitHubFollowers"></p>
+                        <p><b>following</b></p>
+                        <p class="gitHubFollowing"></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

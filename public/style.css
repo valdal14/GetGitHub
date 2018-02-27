@@ -1,3 +1,30 @@
 body {
     margin-top: 20px;
 }
+
+.spinner {
+    display: block;
+    margin: 0px auto;
+    width: 100px;
+    height: 75px;
+}
+
+.textLoading {
+    text-align: center;
+}
+
+.pictureProfile{
+    max-width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.gitHubFollowers{
+    font-size: 50px;
+    color: #3AC18C;
+}
+
+.gitHubFollowing{
+    font-size: 50px;
+    color: #FF5A2B;
+}

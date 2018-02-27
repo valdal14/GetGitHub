@@ -17,8 +17,8 @@ app.get('/', (req, res)=>{
 });
 
 app.post('/getProfile', (req, res)=>{
-    res.status(201).send({user: req.body.username })
-    //GitHub.getProfile(req.body.username);
+    //res.status(201).send({user: req.body.username })
+    GitHub.getData(req.body.username, req, res);
 })
 
 // start server
