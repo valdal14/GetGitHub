@@ -15,7 +15,7 @@ Nodejs and Express App to retrieve GitHub repos info based on the username
 5 - Type the GitHub username you want to look at
 
 
-![Start](https://github.com/valdal14/MongoDB-Migration-Script/blob/master/screens/merge.PNG?raw=true "merge json files")
+![Start](https://github.com/valdal14/GetGitHub/blob/master/screens/Screen-1.PNG?raw=true "merge json files")
 
 ## License
 
